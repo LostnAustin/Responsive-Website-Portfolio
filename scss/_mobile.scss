@@ -39,10 +39,21 @@
     transform: translate3d(100%, 0, 0);
 
     .portait {
-      background: url("");
+      background: url("../img/porfolioImage.jpg");
       width: 150px;
       height: 150px;
     }
+  }
+
+  .about-info {
+    grid-template-areas:
+      "bioimage"
+      "bio"
+      "job1"
+      "job2"
+      "job3";
+
+    grid-template-columns: 1fr;
   }
 }
 

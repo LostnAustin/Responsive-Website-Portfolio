@@ -11,7 +11,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: set-text-color($primary-color);
     @include easeOut;
   }
 
@@ -87,11 +87,12 @@
     }
 
     .portrait {
-      width: 250px;
-      height: 250px;
-      background: url("https://raw.githubusercontent.com/LostnAustin/Portfolio/master/profilePic.jpg");
+      width: 300px;
+      height: 300px;
+      background: url("../img/porfolioImage.jpg");
       border-radius: 50%;
       border: solid 3px $secondary-color;
+      background-repeat: no-repeat;
     }
   }
 
@@ -116,7 +117,8 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #fff;
+    // set-text-color function built in config.scss
+    color: set-text-color($primary-color);
     text-decoration: none;
     @include easeOut;
 
