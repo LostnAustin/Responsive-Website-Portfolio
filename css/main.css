@@ -147,7 +147,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(https://rawgithubusercontent.com/LostnAustin/Responsive-Website//master/dist/img/background.jpg);
+    background: url(https://github.com/LostnAustin/Responsive-Portfolio-Website/blob/master/dist/img/background.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
